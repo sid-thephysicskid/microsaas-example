@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "smartquiz"
+version = "0.1.0"
+description = "generate qa with ai"
+authors = ["sid"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.1.13"
+streamlit = "^1.32.2"
+openai = "^1.14.2"
+pypdf2 = "^3.0.1"
+tiktoken = "^0.6.0"
+chromadb = "^0.4.24"
+langchain-community = "^0.0.29"
+langchain-openai = "^0.1.1"
+pyjwt = "^2.8.0"
+httpx-oauth = "^0.13.2"
+stripe = "^8.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
