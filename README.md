@@ -34,13 +34,20 @@ Smart Quiz is an intelligent learning companion that generates practice question
 1. Clone the repository:
 
    ```bash
-    git clone https://github.com/sid-thephysicskid/smart-quiz.git
-    cd smart-quiz
+    git clone https://github.com/sid-thephysicskid/microsaas-example.git
+    cd microsaas-example
     ```
 2. Install the required dependencies using Poetry:
     ```bash
     poetry install
     ```
+    Poetry creates virtual environments in the ```~/Library/Caches/poetry``` directory by default. You can also choose to create a virtual environment in the current folder by setting the virtualenvs.in-project option to true.
+
+    ```bash
+    poetry config virtualenvs.in-project true 
+    ```
+
+
     Here's an excellent video if you are new to Poetry: https://www.youtube.com/watch?v=0f3moPe_bhk
 
 3. Configuration:

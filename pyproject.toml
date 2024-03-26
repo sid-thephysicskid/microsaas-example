@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "smartquiz"
+name = "microsaas-example"
 version = "0.1.0"
 description = "generate qa with ai"
 authors = ["sid"]
